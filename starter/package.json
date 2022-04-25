@@ -1,0 +1,19 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "Recipe application",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "Stefan Cikarevic",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.5.0",
+    "scss": "^0.2.4"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.5.0"
+  }
+}
